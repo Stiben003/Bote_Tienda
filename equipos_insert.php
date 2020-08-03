@@ -6,13 +6,13 @@
 <ol class="breadcrumb">
     <li><a href="./">Inicio</a></li>
     <li><a href="equipos_mant.php">Listado de Equipos</a></li>
-    <li class="active">Actualizar Equipos</li>
+    <li class="active">Nuevos Equipos</li>
 </ol>
 
 <!-- Inicio de Panel de Detalles -->
 <div class="panel panel-default" style="margin-top: 10 px">
     <div class="panel-heading">
-        <h1>Actualizar Equipo</h1>
+        <h1>Nuevo Equipo</h1>
     </div>
 
     <div class="panel-body">

@@ -6,13 +6,13 @@
 <ol class="breadcrumb">
     <li><a href="./">Inicio</a></li>
     <li><a href="tmantenimiento_mant.php">Listado de Tipos de Mantenimiento</a></li>
-    <li class="active">Actualizar Tipo de Mantenimiento</li>
+    <li class="active">Nuevo Tipo de Mantenimiento</li>
 </ol>
 
 <!-- Inicio de Panel de Detalles -->
 <div class="panel panel-default" style="margin-top: 10 px">
     <div class="panel-heading">
-        <h1>Actualizar Tipo de Mantenimiento</h1>
+        <h1>Nuevo Tipo de Mantenimiento</h1>
     </div>
 
     <div class="panel-body">

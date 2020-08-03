@@ -7,13 +7,13 @@
 <ol class="breadcrumb">
     <li><a href="./">Inicio</a></li>
     <li><a href="tripulacion_mant.php">Listado de Tripulaciónes</a></li>
-    <li class="active">Nueva Tripulacion</li>
+    <li class="active">Actualizar Tripulacion</li>
 </ol>
 
 <!-- Inicio de Panel de Detalles -->
 <div class="panel panel-default" style="margin-top: 10 px">
     <div class="panel-heading">
-        <h1>Nueva Tripulacion</h1>
+        <h1>Actualizar Tripulacion</h1>
     </div>
 
     <div class="panel-body">
@@ -24,7 +24,7 @@
                         <label class="control-label">Codigo <span style="color:red">*</span></label>
                         <input class="form-control" readonly type="text" name="codigo" id="codigo" value="<?php echo $row['codtripulacion'] ?>" require>
                     </div>
-                </div>    
+                </div>
                 <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-lg-4 col-offset-0 col-xs-12 col-xs-offset-0">
                     <div class="form-group">
                         <label class="control-label">Estado <span style="color:red">*</span></label>
@@ -41,7 +41,7 @@
                         <label class="control-label">Nombres <span style="color:red">*</span></label>
                         <input class="form-control" type="text" name="nombre" id="nombre" placeholder="Juan Canahuate" value="<?php echo $row['nombre'] ?>" require>
                     </div>
-                </div>    
+                </div>
                 <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-lg-4 col-offset-0 col-xs-12 col-xs-offset-0">
                     <div class="form-group">
                         <label class="control-label">Dirección <span style="color:red">*</span></label>
@@ -63,7 +63,7 @@
                         <label class="control-label">Numero de Horas <span style="color:red">*</span></label>
                         <input class="form-control" type="number" name="num_h" id="num_h" placeholder="2" value="<?php echo $row['num_horas'] ?>" require>
                     </div>
-                </div>    
+                </div>
                 <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-lg-4 col-offset-0 col-xs-12 col-xs-offset-0">
                     <div class="form-group">
                         <label class="control-label">Valor por Hora <span style="color:red">*</span></label>
